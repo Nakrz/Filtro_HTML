@@ -13,7 +13,23 @@ h1{
 
 /* IMAGENES DE PRODUCTOS */
 
-
+.sidebar{
+  
+    text-align: center;
+    /* border: 2px solid rgb(255, 163, 77); */
+    background-color: rgb(205, 205, 205);;
+    max-width: 100%;
+    padding: 20px;
+  	display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: var(--dark);
+    padding: 12px 16px 12px 0;
+    transition: all .3s ease;
+    border-radius: 10px;
+    margin: 4px 0;
+    white-space: nowrap;
+}
 
 
 
@@ -72,5 +88,13 @@ h1{
   }
 
   .btn{
-    background-color: darkseagreen;
+    background-color: #ff5a0e;
+    color: #fff;
+    border: 2px solid #d6caff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start; 
+    margin-top: 10px; 
   }

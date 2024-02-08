@@ -1,134 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-	<link rel="stylesheet" href="css/style.css">
-	<script src="/js/main.js" async></script>
-	<title>AdminSite</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/main.js" async></script>
+    <title>Todos los Productos</title>
 </head>
+
 <body>
-	<!-- SIDEBAR -->
-	<section id="sidebar">
-		<a href="#" class="brand"><i class='bx bxs-smile icon'></i> AdminSite</a>
-		<ul class="side-menu">
-			<li><a href="#" class="active"><i class='bx bxs-dashboard icon' ></i> Dashboard</a></li>
-			<li class="divider" data-text="main">Main</li>
-			<li>
-				<a href="#"><i class='bx bxs-inbox icon' ></i> Elements <i class='bx bx-chevron-right icon-right' ></i></a>
-				<ul class="side-dropdown">
-					<li><a href="#">Alert</a></li>
-					<li><a href="#">Badges</a></li>
-					<li><a href="#">Breadcrumbs</a></li>
-					<li><a href="#">Button</a></li>
-				</ul>
-			</li>
-			<li><a href="#"><i class='bx bxs-chart icon' ></i> Charts</a></li>
-			<li><a href="#"><i class='bx bxs-widget icon' ></i> Widgets</a></li>
-			<li class="divider" data-text="table and forms">Table and forms</li>
-			<li><a href="#"><i class='bx bx-table icon' ></i> Tables</a></li>
-			<li>
-				<a href="#"><i class='bx bxs-notepad icon' ></i> Forms <i class='bx bx-chevron-right icon-right' ></i></a>
-				<ul class="side-dropdown">
-					<li><a href="#">Basic</a></li>
-					<li><a href="#">Select</a></li>
-					<li><a href="#">Checkbox</a></li>
-					<li><a href="#">Radio</a></li>
-				</ul>
-			</li>
-		</ul>
-	</section>
-	<!-- SIDEBAR -->
+    <!-- SIDEBAR -->
+    <section id="sidebar">
+        <a href="index.html" class="brand"><i class='bx bxs-smile icon'></i> CampusShop</a>
+        <ul class="side-menu">
+            <li id="All"><a href="index.html"><i class='bx bx-table icon'></i> Todos los Productos</a></li>
+            <li class="divider" data-text="Principal">Principal</li>
+            <li><a href="./categorias/camisas.html"><i class='bx bxs-chart icon'></i> Camisetas</a></li>
+            <li><a href="./categorias/abrigos.html"><i class='bx bxs-widget icon'></i> Abrigos</a></li>
+            <li><a href="./categorias/pantalones.html"><i class='bx bxs-widget icon'></i> Pantalones</a></li>
+            <li class="divider" data-text="Compras">Compras</li>
+            <li><a href="https://edu.google.com/intl/es/workspace-for-education/classroom/"><i
+                        class='bx bx-table icon'></i> Carrito</a></li>
+        </ul>
+    </section>
+    <!-- SIDEBAR -->
 
-	<!-- NAVBAR -->
-	<section id="content">
-		<!-- NAVBAR -->
-		<nav>
-			<i class='bx bx-menu toggle-sidebar' ></i>
-			<form action="#">
-				
-			</form>
-			
-			<span class="divider"></span>
-			<div class="profile">
-				<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
-				<ul class="profile-link">
-					<li><a href="#"><i class='bx bxs-user-circle icon' ></i> Profile</a></li>
-					<li><a href="#"><i class='bx bxs-cog' ></i> Settings</a></li>
-					<li><a href="#"><i class='bx bxs-log-out-circle' ></i> Logout</a></li>
-				</ul>
-			</div>
-		</nav>
-		<!-- NAVBAR -->
+    <!-- NAVBAR -->
+    <section id="content">
+        <!-- NAVBAR -->
+        <nav>
+            <i class='bx bx-menu toggle-sidebar'></i>
+            <form action="#">
 
-		<!-- MAIN -->
-		<main>
-			<h1 class="title">Dashboard</h1>
-			<ul class="breadcrumbs">
-				<li><a href="#">Home</a></li>
-				<li class="divider">/</li>
-				<li><a href="#" class="active">Dashboard</a></li>
-			</ul>
-			<div class="info-data">
-				<div class="card">
-					<div class="head">
-						<div>
-							<h2>1500</h2>
-							<p>Traffic</p>
-						</div>
-						<i class='bx bx-trending-up icon' ></i>
-					</div>
-					<span class="progress" data-value="40%"></span>
-					<span class="label">40%</span>
-				</div>
-				<div class="card">
-					<div class="head">
-						<div>
-							<h2>234</h2>
-							<p>Sales</p>
-						</div>
-						<i class='bx bx-trending-down icon down' ></i>
-					</div>
-					<span class="progress" data-value="60%"></span>
-					<span class="label">60%</span>
-				</div>
-				<div class="card">
-					<div class="head">
-						<div>
-							<h2>465</h2>
-							<p>Pageviews</p>
-						</div>
-						<i class='bx bx-trending-up icon' ></i>
-					</div>
-					<span class="progress" data-value="30%"></span>
-					<span class="label">30%</span>
-				</div>
-				<div class="card">
-					<div class="head">
-						<div>
-							<h2>235</h2>
-							<p>Visitors</p>
-						</div>
-						<i class='bx bx-trending-up icon' ></i>
-					</div>
-					<span class="progress" data-value="80%"></span>
-					<span class="label">80%</span>
-				</div>
-			</div>
-			<div class="data">
-				<div class="content-data">
-					<div class="head">
-						<h3>Sales Report</h3>
-					</div>
-					<!-- conteido -->
-					<h1>Hola Mundo</h1>
-				</div>
-			
-			</div>
-		</main>
-		<!-- MAIN -->
-	</section>
-	<!-- NAVBAR -->
+            </form>
+
+            <span class="divider"></span>
+            <div class="profile">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                <ul class="profile-link">
+                    <li><a href="#"><i class='bx bxs-user-circle icon'></i> Profile</a></li>
+                    <li><a href="#"><i class='bx bxs-cog'></i> Settings</a></li>
+                    <li><a href="#"><i class='bx bxs-log-out-circle'></i> Logout</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- NAVBAR -->
+        <main>
+            <h1>Todos los Productos</h1>
+            <br>
+            <br>
+            <div class="cuadros-cont">
+                <!-- <div class="cajita grande">
+					<img src="images/productos/Camisetas/">
+					  <h1>Hola amigos jeje</h1>
+				</div> -->
+                <!-- <div class="cajita media">
+					<img src="">
+					  <p>Hola amigos jeje</p>
+				</div> -->
+                <div class="cajita pequeña">
+                    <a href="./productos/camiseta1.html"><img
+                            src="images/productos/camisetas/camiseta1_P1.png"></a>
+                    <p>Camiseta 1</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+                <div class="cajita pequeña">
+                    <img src="images/productos/camisetas/camiseta2_P1.png">
+                    <p>Camiseta 2</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+                <div class="cajita pequeña">
+                    <a href=""><img src="images/productos/camisetas/camiseta3_P1.png"></a>
+                    <p>Camiseta 3</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+                <div class="cajita pequeña">
+                    <img src="images/productos/camisetas/camiseta4_P1.jpg">
+                    <p>Camiseta 4</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+                <div class="cajita pequeña">
+                    <img src="images/productos/camisetas/camiseta5_P1.jpg">
+                    <p>Camiseta 5</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+                <div class="cajita pequeña">
+                    <a href="./../productos/abrigo1.html"><img
+                            src="./../images/productos/abrigos/abrigo1_P1.jpg"></a>
+                    <p>Abrigo 1</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+                <div class="cajita pequeña">
+                    <a href="./../productos/abrigo1.html"><img
+                        src="./../images/productos/abrigos/abrigo2_P1.jpg"></a>
+                    <p>Abrigo 2</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+                <div class="cajita pequeña">
+                    <a href="./../productos/abrigo1.html"><img
+                        src="./../images/productos/abrigos/abrigo3_P1.jpg"></a>
+                    <p>Abrigo 3</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+                <div class="cajita pequeña">
+                    <a href="./../productos/abrigo1.html"><img
+                        src="./../images/productos/abrigos/abrigo4_P1.jpg"></a>
+                    <p>Abrigo 4</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+                <div class="cajita pequeña">
+                    <a href="./../productos/abrigo1.html"><img
+                        src="./../images/productos/abrigos/abrigo5_P1.jpg"></a>
+                    <p>Abrigo 5</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+                <div class="cajita pequeña">
+                    <a href="./../productos/pantalon1.html"><img
+                            src="./../images/productos/pantalones/pantalon1_P1.jpg"></a>
+                    <p>Pantalone 1</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+                <div class="cajita pequeña">
+                    <a href="./../productos/pantalon2.html"><img
+                        src="./../images/productos/pantalones/pantalon2_P1.jpg"></a>
+                    <p>Pantalone 2</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+                <div class="cajita pequeña">
+                    <a href="./../productos/pantalon3.html"><img
+                        src="./../images/productos/pantalones/pantalon3_P1.jpg"></a>
+                    <p>Pantalone 3</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+                <div class="cajita pequeña">
+                    <a href="./../productos/pantalon4.html"><img
+                        src="./../images/productos/pantalones/pantalon4_P1.jpg"></a>
+                    <p>Pantalone 4</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+                <div class="cajita pequeña">
+                    <a href="./../productos/pantalon5.html"><img
+                        src="./../images/productos/pantalones/pantalon5_P1.jpg"></a>
+                    <p>Pantalone 5</p>
+                    <p>20.000$</p>
+                    <button class="btn">Agregar
+                    </button>
+                </div>
+            </div>
+            
+        </main>
+        <!-- MAIN -->
+    </section>
+    <!-- NAVBAR -->
 </body>
+
 </html>
