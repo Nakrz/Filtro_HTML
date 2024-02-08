@@ -42,7 +42,7 @@ Media Queries: Se utilizan para ajustar el diseño en dispositivos con diferente
 
 ** LAS FUNCIONES DEL HEADER Y EL FOOTER SE REPITEN EN TODOS LOS ARCHIVOS CSS *
 
-**gamepage.css Utiliza las siguientes funciones ** :
+
 
 Reset de estilos: Establece márgenes, decoración de texto y estilo de lista a cero para todos los elementos, y hace que el modelo de caja sea border-box.
 
@@ -60,8 +60,8 @@ Estilo del contenedor de imágenes (imgContainer): Define el estilo del contened
 
 Estilo de las miniaturas de imágenes (miniaturas): Define el estilo de las miniaturas de imágenes, como la disposición de flexbox y el tamaño.
 
-Estilo de las imágenes del juego (imagenJuego img): Define el estilo de las imágenes del juego, como el tamaño, el borde y el radio de borde.
+Estilo de las imágenes del juego (imagenimg): Define el estilo de las imágenes del juego, como el tamaño, el borde y el radio de borde.
 
-Estilo de la información del juego (infoJuego): Define el estilo de la información del juego, como el tamaño y el margen.
+Estilo de la información del juego (infoImagen): Define el estilo de la información del juego, como el tamaño y el margen.
 
 Estilo de las reseñas (reseñas): Define el estilo de las reseñas, como el tamaño de fuente, el color y el margen.
